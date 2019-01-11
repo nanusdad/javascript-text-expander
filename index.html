@@ -24,8 +24,8 @@
 </header>
 <section class="wrapper">
     <label class="textfield">
-        <textarea name="inpText" id="inpText" cols="90" rows="8"></textarea>
-        <span class="textfield__label">Type something</span>
+        <textarea name="inpText" id="inpText" cols="90" rows="15"></textarea>
+        <span class="textfield__label">Take a note:</span>
     </label>
 </section>
 <section class="wrapper">
@@ -55,33 +55,10 @@
 <script type="text/javascript" src="textexpander.js"></script>
 <script type="text/javascript">
     var dictionary = {
-        "os": "operating system",
-        "wtf": "what the fuck",
-        "lol": "laughing out loud",
-        "roflmao": "rolling on the floor laughing my ass off",
-        "stfu": "shut the fuck up",
-        "ms": "micro-fucking-soft",
-        "windows": "a complete fucking crap",
-        "fu": "fuck you",
-        "omg": "oh my god",
-        "gtfo": "get the fuck out",
-        "bfd": "big fucking deal",
-        "fyfi": "for your fucking information",
-        "fyi": "for your information",
-        "gn": "good night",
-        "gd": "goddamn",
-        "ftw": "fuck the world", //or for the win? he he
-        "idk": "I dont know",
-        "ikr": "i know right",
-        "idgaf": "I don't give a fuck",
-        "fml": "fuck my life",
-        "dilligaf": "do I look like I give a fuck",
-        "rtfm": "read the fucking manual",
-        "asafp": "as soon as fucking possible",
-        "fyvm": "fuck you very much",
-        "nfg": "not fucking good",
-        "rofl": "rolling on the floor laughing",
-        "lmao": "laughing my ass off"
+        "@abc": "Amit B Chandra, 46yrs, LCECU# 4567, CMC# 12131\n",
+        "#htn": "Hypertension\n\t[ ] Systolic\n\t[ ] Diastolic\n",
+        "#dm": "Diabetes\n\t[ ] Random\n\t[ ] Fasting\n\t[ ] HbA1C\n",
+        "#s": "Signed by CHW1"
     };
 
     textExpander([document.querySelector("#inpText")], dictionary);
